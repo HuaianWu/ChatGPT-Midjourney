@@ -1,5 +1,5 @@
-export const OWNER = "Licoy";
-export const REPO = "ChatGPT-Midjourney";
+export const OWNER = "智能中心";
+export const REPO = "智能中心GPT";
 export const REPO_URL = `https://github.com/${OWNER}/${REPO}`;
 export const ISSUE_URL = `https://github.com/${OWNER}/${REPO}/issues`;
 export const UPDATE_URL = `${REPO_URL}#keep-updated`;
