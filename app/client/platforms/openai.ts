@@ -61,7 +61,9 @@ export class ChatGPTApi implements LLMApi {
         model: options.config.model,
       },
     };
-
+    if (modelConfig.model === "ChatGLM-6B" || modelConfig.model === "chatglm-6b") {
+      modelConfig.model = "gpt-3.5-turbo";
+    }
     const requestPayload = {
       messages,
       stream: options.config.stream,
